@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: min-content;
+    border: 5px solid black;
+    margin: 14px;
+}
+img{
+    width: 387px;
+    height: 220px; 
+}
+h2{
+    margin-top: 1px;
+    font-size: 2.4em;
+    font-weight: 500;
+}
+.card > div {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+ 
+    margin: auto 15px;
+}
+.skills{
+    margin: 23px;
+    padding: 6px;
+    border-radius: 7px;
+    width: max-content;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }   
+}
